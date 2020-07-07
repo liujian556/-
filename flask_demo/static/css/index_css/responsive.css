@@ -1,0 +1,182 @@
+/*///////////////////////////////////////////////////////////////////////// Responsive CSS Structure /////////////////////////////////////////////////////////////////////////*/
+
+
+/*---------- Small Mobile , IPhone Start ----------*/
+
+/*=== Screen Size = 240, 320, 360, 480, 568 ===*/ 
+
+@media (min-width: 240px) and (max-width: 568px){
+.caption h1 { font-size:35px; line-height:35px; }
+.about-us p { margin-bottom:15px; }
+.our-clients .brand-logo ul li { width:50%; padding:0 5px 10px; }
+.panel-default > .panel-heading { padding-left:15px; }
+.panel-body { padding:28px 15px 22px; }
+
+.address p { font-size:14px; line-height:20px; }
+.social-icon li { padding:0 4px !important; }
+.social-icon li a i { font-size:20px; }
+
+ul.portfolio-gal-filter li { padding:0 6px !important; }
+}
+@media (min-width: 569px) and (max-width: 767px){
+.caption h1 { font-size:45px; line-height:45px; }
+.our-clients .brand-logo ul li { width:33.33%; }
+
+
+
+}
+@media (max-width: 767px) {
+.navbar-default { min-height:80px; height:80px; padding:10px 0; }	
+.header { margin-top:78px; }
+
+p, .panel-body, .address a, .contact-us .form-control { font-size:14px !important; line-height:24px !important; }
+.navbar-nav > li > a { padding:10px 15px 11px; }
+
+.banner { padding:50px 0 0; }
+
+.service { padding:30px 0; }
+	
+.padding-left-65 { padding-left:15px !important; }
+.padding-right-65 { padding-right:15px !important; }
+
+.caption-text p { font-size:16px; line-height:24px; }
+.padding-tb-150 { padding:25px 0 !important; }
+.padding-bottom-150 { padding-bottom:25px !important }
+.priceing-table { padding:25px 0; }
+.faq { padding:25px 0 !important; } 
+
+.screenshot { padding:25px 0; }
+
+.mb-46 { margin-bottom:20px !important; }
+
+.contact-us { padding:25px 0; }
+.contact-us .white-bg { padding:30px 15px; margin-bottom:25px; }
+
+.about-us.padding-tb-150 img { width:100%; margin-bottom:25px; }
+
+.social-icon li { padding:0 9px; }
+
+.portfolio-gal .image-detail p { font-size:16px; line-height:16px; }
+.portfolio-gal .image-detail { padding:30px 15px; }
+
+.mb-50 { margin-bottom:30px !important; }
+.mb-70 { margin-bottom:30px !important; }
+
+.service .block.text-center { padding-bottom:20px; }
+.padding-top-100 { padding-top:25px; }
+ul.portfolio-gal-filter li { padding:0 15px; }
+
+.mb-45 { margin-bottom:25px !important; }
+.address .block { margin-bottom:30px; }
+
+.footer .social-icon { text-align:center; padding-bottom:10px; }
+.footer .copy-right p { text-align:center; }
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form { border:none; }
+.navbar-nav { background-color:#fff; margin:7.5px 0; position:relative; z-index:9; }
+nav ul li { width:100%; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { border-radius:0; -webkit-border-radius:0; -moz-border-radius:0; -ms-border-radius:0; -o-border-radius:0; }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus { border-radius:0; -webkit-border-radius:0; -moz-border-radius:0; -ms-border-radius:0; -o-border-radius:0; }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { border-color:#66ccff; background:none; }
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar { background-color:#66ccff; }
+
+.img-slider { 
+	/*background: url(../images/screenshot/macbook.png) no-repeat;
+    height: 253px;
+    width: 420px;
+    background-size: cover;
+    background-position: center center;
+    margin: 23px auto;*/	
+	display:none;
+}
+
+.macbook { display:none; }
+.screenshot .carousel-inner .caption-text { display:block; height:auto; padding-bottom:20px; text-align:center; } 
+.carousel-indicators { bottom:0; right: 0; width:100%; margin-bottom:0; }
+.carousel-control { display:none; }
+.mb-30 { margin-bottom:10px !important; }
+
+.slick-prev { left:-20px !important; }
+.slick-next { right:-20px !important }
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a.active {
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-ms-border-radius:0;
+	-o-border-radius:0;	
+}
+
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 991px){
+.navbar-nav > li > a { padding:10px 15px 11px; }
+
+.banner { padding:150px 0 0; }
+
+.service { padding:60px 0; }
+	
+.padding-left-65 { padding-left:15px !important; }
+.padding-right-65 { padding-right:15px !important; }
+
+.caption-text p { font-size:16px; line-height:24px; }
+.padding-tb-150 { padding:85px 0 !important; }
+.padding-bottom-150 { padding-bottom:25px !important }
+.priceing-table { padding:25px 0; }
+.faq { padding:85px 0 !important; } 
+
+.screenshot { padding:85px 0; }
+
+.mb-46 { margin-bottom:20px !important; }
+
+.contact-us { padding:85px 0; }
+.contact-us .white-bg { padding:50px 15px; height:525px; }
+
+.about-us.padding-tb-150 img { width:100%; margin-bottom:25px; }
+
+.social-icon li { padding:0 9px; }
+
+.portfolio-gal .image-detail p { font-size:16px; line-height:16px; }
+.portfolio-gal .image-detail { padding:30px 15px; } 
+
+
+.macbook { height: 269px; top: 26%; }
+.img-slider { top: 138px; left: 46px; }
+.img-slider img { width:77%; height:210px; }
+.carousel-indicators { bottom:62px; right:25px; }
+.slick-prev { left: -30px !important; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	
+.padding-left-65 { padding-left:40px !important; }
+.padding-right-65 { padding-right:40px !important; }
+
+.caption-text p { font-size:16px; line-height:24px; }
+.padding-tb-150 { padding:125px 0 !important; }
+.padding-bottom-150 { padding-bottom:125px !important }
+.priceing-table { padding:125px 0; }
+.faq { padding:125px 0 110px !important; } 
+
+.contact-us { padding:125px 0; }
+.contact-us .white-bg { padding:99px 55px; height:600px; }
+
+.img-slider { top: 88px; left: 86px; }
+.macbook { top: 14%; width: 64.5%; height: 366px; }
+.img-slider img { height: 293px; object-fit: cover; width: 74%; }
+
+.slick-slide > img { height: 70px; width: 70px; }
+
+}
+@media (min-width: 1200px) and (max-width: 1229px){
+.contact-us .white-bg { padding:99px 55px; height:600px; }
+}
+
+
+
+/*---------- Large Desktop , Large Screen End ----------*/

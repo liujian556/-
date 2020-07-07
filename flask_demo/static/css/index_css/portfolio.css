@@ -1,0 +1,117 @@
+/* ================= NavBar Area ==================== */
+.portfolio {
+	background-color:#fff;
+	overflow:hidden;
+}
+
+.portfolio h1 {
+	text-transform:uppercase;
+	color:#6a6a6a;	
+}
+
+.portfolio-gal {
+	float:left;
+	width:100%;
+	margin-top:45px;
+	position:relative;
+}
+
+.portfolio-gal .img {
+	width:100%;
+	float:left;
+	position:relative;
+	margin-bottom:30px;
+}
+
+.portfolio-gal .img img {
+	width:100%;
+	transition: all 300ms ease;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+}
+
+.portfolio-gal .img h4 {
+	width:60px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	background-color:#a1b1bc !important;
+	font-size:18px;
+	color:#fff;
+}
+
+.portfolio-gal a.img:hover {
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.1), 0 17px 50px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.1), 0 17px 50px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.1), 0 17px 50px 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.1), 0 17px 50px 0 rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.1), 0 17px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-gal a.img:hover h4 {
+	color:#fff !important;
+	background-color:#63b7e6 !important;	
+}
+
+.portfolio-gal .image-detail {
+	background-color:#f4f5f9;
+	padding:30px 34px;	
+}
+
+.portfolio-gal .image-detail p {
+	color:#999999;
+	margin:0;
+	font-size:18px;
+	line-height:18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+}
+
+
+ul.portfolio-gal-filter {
+	text-align:center;
+	display:block;
+	margin:0;
+	padding:0;
+}
+
+ul.portfolio-gal-filter li {
+	padding:0 23px;
+	display:inline-block;
+}
+
+ul.portfolio-gal-filter li:first-child {
+	padding-left:0;
+}
+
+ul.portfolio-gal-filter li:last-child {
+	padding-right:0;
+}
+
+ul.portfolio-gal-filter li a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	line-height:14px;
+	color:#999999;
+	text-transform:uppercase;
+	font-weight:600;
+}
+
+ul.portfolio-gal-filter li a.active {
+	color:#63b7e6;
+	border-bottom:2px solid #63b7e6;	
+}
+
+
+.more-button a:focus,
+.more-button a:hover{
+	color:#fff;
+}
+
+.more-button a {
+	background:#63b7e6 !important;
+}
+
+
+
+

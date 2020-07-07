@@ -1,0 +1,227 @@
+/* ================= priceing-table  Area ==================== */
+
+.priceing-table {
+	padding:150px 0;
+	overflow:hidden;
+	
+}
+
+.pricing {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.price-shadow {
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.09);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,.09);
+	box-shadow: 0 2px 5px rgba(0,0,0,.09);
+}
+
+.pricing-active {
+  
+ -webkit-box-shadow: 0 3px 14px 2px rgba(0,0,0,0);
+	-moz-box-shadow: 0 3px 14px 2px rgba(0,0,0,0);
+	box-shadow: 0 3px 14px 2px rgba(0,0,0,0);
+	position:relative;
+}
+
+.pricing-active:before {
+	border-left: 5px solid #2c3e50;
+	content:"";
+	left:0;
+	top:0;
+	bottom:0;
+	position:absolute;
+}
+
+.pricing-active:after {
+	border-right: 5px solid #2c3e50;
+	content:"";
+	right:0;
+	top:0;
+	bottom:0;
+	position:absolute;
+}
+
+.pricing-active .price-shadow  {
+	box-shadow:none;
+}
+
+.pricing-active .pricing-head h2 {
+	background:#2c3e50;
+}
+
+.pricing-active .pricing-footer {
+	background:#2c3e50;
+}
+
+.pricing-active .btn-white-small {
+	color:#2c3e50;
+}
+
+.pricing:hover {
+   -webkit-box-shadow: 0 3px 14px 2px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 3px 14px 2px rgba(0,0,0,.1);
+	box-shadow: 0 3px 14px 2px rgba(0,0,0,.1);
+}
+
+
+.priceing-table .btn-white-small:hover,
+.priceing-table .btn-white-small:focus{
+	 color:#66ccff;
+	 box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+	 -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+	 -moz-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+	 -ms-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+	 -o-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+.pricing-head {
+  text-align: center;
+}
+
+.pricing-head h2,
+.pricing-head h4 {
+  margin: 0;
+  line-height: normal;
+}
+
+.pricing-head h2 {
+  background: #63b7e6;
+  padding:22px 0 21px;
+  letter-spacing:2px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.pricing-head h4 {
+  color: #999999;
+  padding: 10px 0;
+  font-weight:400;
+  font-size: 30px;
+  background:#fff;
+  border-left:2px solid #f4f5f9;
+  border-right:2px solid #f4f5f9;
+}
+
+.pricing-head h4 sup {
+	font-size: 14px;
+    line-height: 14px;
+    top: -10px;
+    vertical-align: middle;
+}
+
+.pricing-head-active h4 {
+  color: #36d7ac;
+}
+
+.pricing-content  {
+	background:#fff;
+	margin-bottom:0;
+}
+
+
+.pricing-head h4 span {
+  top: -2px;
+  font-size: 16px;
+  font-style: normal;
+  position: relative;
+  vertical-align:middle;
+}
+
+/*Pricing Content*/
+.pricing-content li {
+  color: #999;
+  font-size: 16px;
+  padding:10px 0;
+  border-bottom: solid 1px #f5f9e7;
+}
+
+/*Pricing Footer*/
+.pricing-footer {
+  background:#63b7e6;
+  padding:18px 0;
+}
+
+/*Priceing Active*/
+.price-active,
+.pricing:hover {
+  z-index: 9;
+}
+
+.price-active h4 {
+  color: #36d7ac;
+}
+
+.no-space-pricing .pricing:hover {
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.no-space-pricing .price-active .pricing-head h4,
+.no-space-pricing .pricing:hover .pricing-head h4 {
+  color: #36d7ac;
+  padding: 15px 0;
+  font-size: 80px;
+  transition: color 0.5s ease-in-out;
+}
+
+.yellow-crusta.btn {
+  color: #FFFFFF;
+  background-color: #f3c200;
+}
+.yellow-crusta.btn:hover,
+.yellow-crusta.btn:focus,
+.yellow-crusta.btn:active,
+.yellow-crusta.btn.active {
+    color: #FFFFFF;
+    background-color: #cfa500;
+}
+
+.box {
+  position: relative;
+  z-index:50;
+}
+.ribbon {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#A1B1BC 0%, #a1b1bc 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  -ms-box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #333333;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #333333;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #333333;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #333333;
+}

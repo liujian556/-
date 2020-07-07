@@ -1,0 +1,11 @@
+.page-breadcrum ul li::before{
+  position: absolute;
+  content: "";
+  margin-left: -16px;
+}
+.page-breadcrum ul li:first-child::before{
+  content: none;
+}
+.page-breadcrum ul li a{
+  font-family: 'Raleway', sans-serif;
+}

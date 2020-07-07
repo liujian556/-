@@ -1,0 +1,87 @@
+/* ================= NavBar Area ==================== */
+.our-clients {
+	background-color:#f4f5f9;
+	overflow:hidden;
+}
+
+.our-clients h1 {
+	text-transform:uppercase;	
+}
+
+.our-clients p {
+	font-size:16px;
+	line-height:21px;
+	color:#6a6a6a;	
+}
+
+.our-clients .brand-logo {
+	padding-top:54px;	
+}
+
+.our-clients .brand-logo ul {
+	margin:0;
+	padding:0;
+	display:block;
+}
+
+.our-clients .brand-logo ul li {
+	float:left;
+	width:20%;
+	padding:0 15px 30px 15px;
+}
+
+.our-clients .brand-logo ul li a {
+	position:relative;
+	background-color:#fff;
+	height:100px;
+	display:block;
+	-webkit-box-shadow: 0 1px 3px rgba(31,31,31,.09);
+	-moz-box-shadow: 0 1px 3px rgba(31,31,31,.09);
+	-o-box-shadow: 0 1px 3px rgba(31,31,31,.09);
+	-ms-box-shadow: 0 1px 3px rgba(31,31,31,.09);
+	box-shadow: 0 1px 3px rgba(31,31,31,.09);
+}
+
+.our-clients .brand-logo ul li:hover a {
+	background-color: #63b7e6;
+	-webkit-box-shadow: 0 3px 9px 1px rgba(31,31,31,.3);
+	-moz-box-shadow: 0 3px 9px 1px rgba(31,31,31,.3);
+	-ms-box-shadow: 0 3px 9px 1px rgba(31,31,31,.3);
+	-o-box-shadow: 0 3px 9px 1px rgba(31,31,31,.3);
+	box-shadow: 0 3px 9px 1px rgba(31,31,31,.3);
+}
+
+
+.our-clients .brand-logo ul li a img {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+}
+
+
+.our-clients .brand-logo ul li a img.orig-logo {
+	opacity:1;	
+}
+
+.our-clients .brand-logo ul li:hover a img.orig-logo {
+	opacity:0;	
+}
+
+.our-clients .brand-logo ul li a img.white-logo {
+	opacity:0;	
+}
+
+
+.our-clients .brand-logo ul li:hover a img.white-logo {
+	opacity:1 !important;	
+}
+
+
+
+
+

@@ -1,0 +1,68 @@
+/* ================= Faq Area ==================== */
+
+.faq {
+	padding:150px 0 130px;
+	overflow:hidden;
+}
+
+.more-less {
+	background:#66ccff;
+	height:25px;
+	width:25px;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-ms-border-radius:50%;
+	color:#fff;
+	position:absolute;
+	right:15px;
+	top:50%;
+	transform:translate(0,-50%);
+	-webkit-transform:translate(0,-50%);
+	-moz-transform:translate(0,-50%);
+	-ms-transform:translate(0,-50%);
+	-o-transform:translate(0,-50%);
+}
+
+.more-less::before {
+	position:absolute;
+	top:52%;
+	left:52%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+
+.panel-default > .panel-heading {
+	background:#fff;
+	padding:20px 45px 16px 25px;
+	border:none;
+	border-radius:0;
+	position:relative;
+}
+
+.panel-group .panel {
+	border:none;
+	margin-bottom:20px;
+	background:none;
+	box-shadow:none;
+}
+
+.panel-heading a {
+	display:block;
+	font-size:18px;
+	line-height:18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:700;
+	color:#666;
+}
+
+.panel-body {
+	padding:28px 25px 22px 25px;
+	font-size:16px;
+	line-height:26px;
+	border-top-color:#fff !important;
+}
+
+.panel-title [aria-expanded="true"] {
+	color:#66ccff;
+}

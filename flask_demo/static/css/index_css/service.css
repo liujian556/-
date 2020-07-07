@@ -1,0 +1,27 @@
+/* ================= Service Area ==================== */
+
+.service {
+	padding:148px 0 128px;
+	overflow: hidden;
+}
+
+.service h3 {
+	position:relative;
+}
+
+.service h3:before {
+	content:"";
+	position:absolute;
+	bottom:0;
+	left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	background:#999999;
+	height:2px;
+	width:41px;
+}
+
+.service p {
+	margin-bottom:0;
+}

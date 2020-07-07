@@ -1,0 +1,12 @@
+/* ================= NavBar Area ==================== */
+.about-us {
+	background-color:#f4f5f9;	
+	overflow:hidden;
+}
+
+.about-us p {
+	font-size:16px;
+	line-height:30px;
+	color:#6a6a6a;
+	margin-bottom:30px;	
+}
